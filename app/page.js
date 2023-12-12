@@ -1,3 +1,4 @@
+import Contact from '@/components/Contact'
 import Hero from '@/components/Hero'
 import Instagram from '@/components/Instagram'
 import Slider from '@/components/Slider'
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero heading='Create Unforgettable Memories' message='Where dreams come true'/>
       <Slider slides={SliderData} />
       <Instagram />
+      <Contact />
     </>
   )
 }

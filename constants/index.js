@@ -28,7 +28,7 @@
     {
       title: 'Learn More',
       links: [
-        'About Hilink',
+        'About The Railyard',
         'Press Releases',
         'Environment',
         'Jobs',
@@ -38,7 +38,7 @@
     },
     {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['Great Stories', 'How to Plan a Wedding', 'Flower Distributors'],
     },
   ];
   
@@ -46,7 +46,7 @@
     title: 'Contact Us',
     links: [
       { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Email Officer', value: 'admin@railyard.com' },
     ],
   };
   

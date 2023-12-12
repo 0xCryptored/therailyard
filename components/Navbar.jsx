@@ -33,7 +33,7 @@ const Navbar = () => {
                 <Image
                     src="/ry-logo-xl.png"
                     alt="RailYard-logo"
-                    width={200}
+                    width={120}
                     height={45}
                 />
             </Link>
