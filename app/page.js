@@ -7,7 +7,7 @@ import { SliderData } from '@/constants'
 export default function Home() {
   return (
     <>
-      <Hero heading='Create Unforgettable Memories' message='Where dreams come true'/>
+      <Hero heading='Discover Eventful Charm' message='Our tranquil space is where memories are made and laughter echoes.'/>
       <Slider slides={SliderData} />
       <Instagram />
       <Contact />

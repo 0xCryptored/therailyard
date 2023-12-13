@@ -5,9 +5,9 @@ import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
 
 const Footer = () => {
   return (
-    <footer className='flexCenter mb-24'>
+    <footer className='flexCenter mb-10'>
       <div className='padding-container max-container flex w-full flex-col gap-14'>
-        <div className='flex flex-col items-start justify-center gap-[10%] md:flex-row'>
+        <div className='flex flex-col items-start justify-center gap-[10%] md:flex-row ml-11'>
           <Link href='/' className='mb-10'>
             <Image 
               src="/ry-logo-sm.png"

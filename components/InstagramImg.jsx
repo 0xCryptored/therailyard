@@ -6,7 +6,7 @@ import { FaInstagram } from 'react-icons/fa'
 const InstagramImg = ({ socialImg }) => {
   return (
     <div className='relative'>
-        <Image className='w-full h-full' layout='responsive'
+        <Image className='w-full h-full'
             src={socialImg}
             alt='/'
         />

@@ -24,6 +24,11 @@ const Navbar = () => {
             }
         }
         window.addEventListener('scroll', changeColor);
+
+        // Cleanup function
+        return () => {
+            window.removeEventListener('scroll', changeColor);
+        };
     }, []);
 
   return (
@@ -37,24 +42,24 @@ const Navbar = () => {
                     height={45}
                 />
             </Link>
-            <ul style={{color: `${textColor}`}} className='hidden sm:flex text-xl'>
+            <ul style={{color: `${textColor}`}} className='hidden sm:flex text-lg'>
                 <li className='p-4'>
-                    <Link className='hover:font-bold' href='/'>Home</Link>
+                    <Link href='/' className='hover:font-bold'>Home</Link>
                 </li>
                 <li className='p-4'>
-                    <Link className='hover:font-bold' href='/#Story'>Our Story</Link>
+                    <Link href='/#story' className='hover:font-bold'>Our Story</Link>
                 </li>
                 <li className='p-4'>
-                    <Link className='hover:font-bold'  href='/#moments'>Moments</Link>
+                    <Link href='/#moments' className='hover:font-bold'>Moments</Link>
                 </li>
                 <li className='p-4'>
-                    <Link className='hover:font-bold'  href='/events'>Wedding & Events</Link>
+                    <Link href='/events' className='hover:font-bold'>Wedding & Events</Link>
                 </li>
                 <li className='p-4'>
-                    <Link className='hover:font-bold'  href='/#contact'>Get In Touch</Link>
+                    <Link href='/#contact' className='hover:font-bold'>Get In Touch</Link>
                 </li>
                 <li className='p-4'>
-                    <Link className='hover:font-bold'  href='/policy'>Policies</Link>
+                    <Link href='/policy' className='hover:font-bold'>Policies</Link>
                 </li>
             </ul>
             {/* Mobile Button */}
@@ -65,22 +70,22 @@ const Navbar = () => {
             <div className={nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
                 <ul>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/'>Home</Link>
+                        <Link href='/' onClick={handleNav}>Home</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/'>Our Story</Link>
+                        <Link href='/#story' onClick={handleNav}>Our Story</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/'>Moments</Link>
+                        <Link href='/#moments' onClick={handleNav}>Moments</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/'>Wedding & Events</Link>
+                        <Link href='/events' onClick={handleNav}>Wedding & Events</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/'>Get In Touch</Link>
+                        <Link href='/#contact' onClick={handleNav}>Get In Touch</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/'>Policies</Link>
+                        <Link href='/policy' onClick={handleNav}>Policies</Link>
                     </li>
                 </ul>
             </div>
