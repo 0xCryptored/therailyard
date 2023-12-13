@@ -1,7 +1,6 @@
 import Hero from '@/components/Hero'
 import Content from '@/components/policy/Content'
 import Cover from '@/components/policy/Cover'
-import Items from '@/components/policy/Items'
 
 export default function Home() {
   return (

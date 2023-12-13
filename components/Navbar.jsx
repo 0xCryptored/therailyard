@@ -56,7 +56,7 @@ const Navbar = () => {
                     <Link href='/events' className='hover:font-bold'>Wedding & Events</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/#contact' className='hover:font-bold'>Get In Touch</Link>
+                    <Link href='/contact' className='hover:font-bold'>Get In Touch</Link>
                 </li>
                 <li className='p-4'>
                     <Link href='/policy' className='hover:font-bold'>Policies</Link>
