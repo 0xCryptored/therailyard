@@ -109,15 +109,15 @@ export const navVariants = {
   export const planetVariants = (direction) => ({
     hidden: {
       x: direction === 'left' ? '-100%' : '100%',
-      rotate: 120,
+      rotate: 90,
     },
     show: {
       x: 0,
       rotate: 0,
       transition: {
         type: 'spring',
-        duration: 1.8,
-        delay: 0.2,
+        duration: 1.7,
+        delay: 0.1,
       },
     },
   });

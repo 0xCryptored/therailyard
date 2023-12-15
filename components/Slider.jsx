@@ -33,18 +33,18 @@ const Slider = ({ slides }) => {
                   : 'opacity-0'
               }
             >   
-                    <FaArrowCircleLeft className='absolute top-[50%] left-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={prevSlide}/>
+              <FaArrowCircleLeft className='absolute top-[50%] left-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={prevSlide}/>
+              <FaArrowCircleRight className='absolute top-[50%] right-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={nextSlide} />
 
-                    {index === current && (
-                        <Image
-                        src={slide.img}
-                        alt={slide.title}
-                        width="600"
-                        height="249"
-                        />
-                    )}
+                {index === current && (
+                    <Image
+                    src={slide.img}
+                    alt={slide.title}
+                    width="600"
+                    height="249"
+                    />
+                )}
 
-                    <FaArrowCircleRight className='absolute top-[50%] right-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={nextSlide} />
           </div>
           );
         })}

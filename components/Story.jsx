@@ -13,7 +13,7 @@ const Story = () => {
             variants={staggerContainer}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: "false", amount: 0.25 }}
+            viewport={{ once: "false", amount: 0.75 }}
             className="lg:w-[80%] w-[100%] mx-auto flex lg:flex-row flex-col gap-8"
         >
             <div className="flex-[0.75] flex justify-center flex-col">

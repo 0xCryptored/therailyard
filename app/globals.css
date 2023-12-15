@@ -89,10 +89,10 @@ html {
 .gradient-03 {
   position: absolute;
   width: 404px;
-  height: 800px;
+  height: 600px;
   left: 20%;
   top: 5%;
-
+  
   background: rgba(149, 66, 232, 0.35);
   filter: blur(175px);
   transform: rotate(-114.2deg);
@@ -113,7 +113,7 @@ html {
 .gradient-05 {
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.04) 0%,
+    rgba(88, 248, 82, 0.322) 0%,
     rgba(255, 255, 255, 0) 100%
   );
 }
