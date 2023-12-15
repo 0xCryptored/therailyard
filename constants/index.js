@@ -22,7 +22,48 @@
         img: '/slide-5.jpg',
     },
   ];
+
+  // INSTA DATA
+  export const InstaData = [
+    {
+      title: 'Couple photo 1',
+      img: '/insc-1.jpg',
+    },
+    {
+        title: 'Couple photo 2',
+        img: '/insc-2.jpg',
+    },
+    {
+        title: 'Couple photo 3',
+        img: '/insc-3.jpg',
+    },  
+    {
+        title: 'Couple photo 4',
+        img: '/insc-4.jpg',
+    },
+    {
+        title: 'Couple photo 5',
+        img: '/insc-5.jpg',
+    },
+    {
+        title: 'Couple photo 6',
+        img: '/insc-6.jpg',
+    },
+  ];
   
+  // STORY SECTION
+  export const newFeatures = [
+    {
+      title: 'Once upon a time...',
+      subtitle: "In the late 19th century, a visionary named Sam Gregory embarked on a mission to build not just a railroad, but a community that would stand the test of time. Our love story began like a vintage classic, with a shared passion for old cars, old houses, and all things that whisper stories from a bygone era.",
+    },
+    {
+      title: '',
+      subtitle: "We invite you to step back in time to a place where the past comes to life. a 120 year old railroad camp, lovingly preserved for generations to come.",
+    },
+  ];
+
+
   // FOOTER SECTION
   export const FOOTER_LINKS = [
     {

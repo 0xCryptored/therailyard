@@ -29,7 +29,7 @@ const Slider = ({ slides }) => {
               key={index}
               className={
                 index === current
-                  ? 'opacity-[1] ease-in duration-1000'
+                  ? 'opacity-[1] ease-in duration-300'
                   : 'opacity-0'
               }
             >   
@@ -45,8 +45,7 @@ const Slider = ({ slides }) => {
                     )}
 
                     <FaArrowCircleRight className='absolute top-[50%] right-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={nextSlide} />
-
-                </div>
+          </div>
           );
         })}
     </div>
