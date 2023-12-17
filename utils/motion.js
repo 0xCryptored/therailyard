@@ -116,8 +116,8 @@ export const navVariants = {
       rotate: 0,
       transition: {
         type: 'spring',
-        duration: 1.7,
-        delay: 0.1,
+        duration: 1.5,
+        delay: 0,
       },
     },
   });

@@ -82,7 +82,7 @@ const Navbar = () => {
                         <Link href='/events' onClick={handleNav}>Wedding & Events</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/#contact' onClick={handleNav}>Get In Touch</Link>
+                        <Link href='/contact' onClick={handleNav}>Get In Touch</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/policy' onClick={handleNav}>Policies</Link>

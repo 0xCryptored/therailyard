@@ -71,3 +71,5 @@
         content: "The rental fee covers the cleaning and appearance of buildings and grounds prior to the event. The client is responsible for all take down and clean-up after the event. All garbage, trash, decorations, furnishings, and any other items used for the event must be cleaned-up and removed from the property after the event. The property will be inspected after clean-up and the cost of any additional clean-up will be deducted from the security deposit or billed to the client.",
     },
   ]
+
+  export const AboutText = "Welcome to The Railyard, where we're dedicated to ensuring your special day is as seamless and memorable as possible. To provide clarity and transparency, we have outlined our policies to help guide you through the planning process. From booking details to event guidelines, these policies are designed to create a harmonious experience for you and your guests. Please take a moment to review our commitments and guidelines, ensuring a smooth and joyous celebration at our beautiful wedding farm"

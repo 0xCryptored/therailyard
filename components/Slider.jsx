@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { SliderData } from "@/constants";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
+import { TitleText } from "./CustomTexts";
 
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -20,36 +21,38 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <div id="moments" className='max-w-[1240px] mx-auto'>
-      <h1 className='text-2xl font-bold text-center p-4'>Moments</h1>
-      <div className="relative flex justify-center p-4">
-        {SliderData.map((slide, index) => {
-          return (
-            <div
-              key={index}
-              className={
-                index === current
-                  ? 'opacity-[1] ease-in duration-300'
-                  : 'opacity-0'
-              }
-            >   
-              <FaArrowCircleLeft className='absolute top-[50%] left-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={prevSlide}/>
-              <FaArrowCircleRight className='absolute top-[50%] right-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={nextSlide} />
+    <section id="moments" className='relative sm:p-16 xs:p-8 px-6 py-12 z-2'>
+        <div className="flexCenter">
+          <TitleText title={<>Moments</>} />
+        </div>
+        <div className="relative flex justify-center p-4">
+          {SliderData.map((slide, index) => {
+            return (
+              <div
+                key={index}
+                className={
+                  index === current
+                    ? 'opacity-[1] ease-in duration-300'
+                    : 'opacity-0'
+                }
+              >   
+                <FaArrowCircleLeft className='absolute top-[50%] left-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={prevSlide}/>
+                <FaArrowCircleRight className='absolute top-[50%] right-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={nextSlide} />
 
-                {index === current && (
-                    <Image
-                    src={slide.img}
-                    alt={slide.title}
-                    width="600"
-                    height="249"
-                    />
-                )}
+                  {index === current && (
+                      <Image
+                      src={slide.img}
+                      alt={slide.title}
+                      width="600"
+                      height="249"
+                      />
+                  )}
 
-          </div>
-          );
-        })}
-    </div>
-    </div>
+              </div>
+            );
+          })}
+      </div>
+    </section>
   );
 };
 

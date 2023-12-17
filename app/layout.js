@@ -1,5 +1,5 @@
-import { Inter, Raleway } from 'next/font/google'
-import './globals.css'
+import { Raleway } from 'next/font/google'
+import '../styles/globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
