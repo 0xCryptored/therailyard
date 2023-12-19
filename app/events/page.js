@@ -13,7 +13,7 @@ export default function Home() {
       <About content={AboutText} />
       <PhotoGrid /> {/* Oportunidad para Mejora */}
       <Packages />
-      <SubHero heading='Other Events' />
+      <SubHero heading='Other Events' img='custom-img2' />
       <About content={AboutText2} />
 
 

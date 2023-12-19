@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
 import { NewFeatures, TitleText, TypingText } from "../components";
-import { newFeatures } from "../constants/index";
+import { storyHost } from "../constants/index";
 import Image from "next/image";
 
 const Story = () => {
@@ -32,8 +32,8 @@ const Story = () => {
                 className="flex-1 flex justify-center items-center"
             >
                 <div className="mt-[48px] flex flex-wrap items-center justify-between gap-[24px]">
-                {newFeatures.map((feature) => (
-                    <NewFeatures key={feature.title} {...feature} />
+                {storyHost.map((story) => (
+                    <NewFeatures key={story.title} {...story} />
                 ))}
                 </div>
             </motion.div>

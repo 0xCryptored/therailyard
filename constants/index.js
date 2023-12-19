@@ -1,3 +1,5 @@
+  // Contact Data
+  export const AboutContact = "We're genuinely excited to hear from you! Kindly complete the form below, and we'll be reaching out to you promptly. Your inquiries are important to us, and we're here to assist you with any details or arrangements for your upcoming event. Looking forward to connecting with you soon!"
 
   // SLIDER DATA 
   export const SliderData = [
@@ -52,7 +54,7 @@
   ];
   
   // STORY SECTION
-  export const newFeatures = [
+  export const storyHost = [
     {
       title: 'Once upon a time...',
       subtitle: "In the late 19th century, a visionary named Sam Gregory embarked on a mission to build not just a railroad, but a community that would stand the test of time. Our love story began like a vintage classic, with a shared passion for old cars, old houses, and all things that whisper stories from a bygone era.",
@@ -62,6 +64,9 @@
       subtitle: "We invite you to step back in time to a place where the past comes to life. a 120 year old railroad camp, lovingly preserved for generations to come.",
     },
   ];
+
+  // FEATURES SECTION
+  export const bulletPoints = ['Foo','Bar','Baz','qux','quux','corge','grault', 'garply','waldo']
 
 
   // FOOTER SECTION
