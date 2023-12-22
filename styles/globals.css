@@ -47,8 +47,26 @@ html {
   background-image: url('/hero4.jpg');
 }
 
+.rail-1 {
+  background-image: url('/rail-1.svg');
+}
+.rail-2 {
+  background-image: url('/rail-2.svg');
+}
+.railCover-1 {
+  background-image: url('/CoverRails-1.svg');
+}
+
+.railCover-2 {
+  background-image: url('/CoverRails-2.svg');
+}
+
 .custom-shadow {
   text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+}
+
+.dark-shadow {
+  text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.904);
 }
 
 

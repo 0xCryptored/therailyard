@@ -25,7 +25,7 @@ const About = ({ content }) => {
             <motion.img 
                 variants={fadeIn('up', 'tween', 1, 1)}
                 src="/ry-logo-sm.png"
-                alt="arrow down"
+                alt="railyard logo"
                 className="w-[80px] h-[80px] object-contain mt-[28px]"
             />
         </motion.div>

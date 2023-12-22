@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Story = () => {
   return (
-    <section id='story' className="relative sm:p-16 xs:p-8 px-6 py-12 z-2">
+    <section id='story' className="relative sm:p-10 xs:p-8 px-6 py-12 z-2 bg-center bg-cover railCover-1">
         <motion.div
             variants={staggerContainer}
             initial="hidden"

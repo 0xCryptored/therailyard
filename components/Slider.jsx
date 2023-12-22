@@ -21,7 +21,7 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <section id="moments" className='relative sm:p-16 xs:p-8 px-6 py-12 z-2'>
+    <section id="moments" className='relative sm:p-16 xs:p-8 px-6 py-12 z-2 bg-center bg-cover railCover-2'>
         <div className="flexCenter">
           <TitleText title={<>Moments</>} />
         </div>
@@ -36,8 +36,8 @@ const Slider = ({ slides }) => {
                     : 'opacity-0'
                 }
               >   
-                <FaArrowCircleLeft className='absolute top-[50%] left-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={prevSlide}/>
-                <FaArrowCircleRight className='absolute top-[50%] right-[30px] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={nextSlide} />
+                <FaArrowCircleLeft className='absolute top-[50%] left-[10%] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={prevSlide}/>
+                <FaArrowCircleRight className='absolute top-[50%] right-[10%] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={nextSlide} />
 
                   {index === current && (
                       <Image

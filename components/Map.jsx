@@ -2,7 +2,7 @@
 import { motion } from "framer-motion"
 import styles from "@/styles";
 import { staggerContainer, fadeIn } from "@/utils/motion";
-import { TitleText, TypingText } from "./CustomTexts";
+import { TitleText } from "./CustomTexts";
 import React from "react";
 import Image from "next/image";
 
@@ -23,12 +23,13 @@ const Map = () => {
       {/* Positionamiento Lineas con nombre */}
         <motion.div
           variants={fadeIn("up", "tween", 0.3, 1)}
-          className="relative mt-[6px] flex w-full h-full"
+          className="relative flex w-full h-full"
         >
+          <div className="absolute left-0 top-0 md:w-[500px] h-[500px] bg-center bg-cover rail-2 z-0" style={{ transform: 'rotate(-125deg)' }} />
+          <div className="absolute md:right-0 md:bottom-0 w-[510px] h-[500px] bg-center bg-cover rail-2 z-0" style={{ transform: 'rotate(-155deg)' }} />
           <div className="relative mx-auto w-[410px] h-[730px]">
             <Image src="/map.png" alt="map" className="md:w-full md:h-full" width={410} height={730}/>
           </div>
-
           <div className="absolute top-[22%] left-[55%] cursor-pointer" >
             <div className="w-[15px] h-[15px] rounded-full md:w-[255px] md:h-[4px] bg-blue-500 border border-white"/>
             <p className="absolute right-0 text-white font-bold custom-shadow" >PARKING</p>

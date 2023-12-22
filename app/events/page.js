@@ -1,3 +1,4 @@
+import About2 from '@/components/About2'
 import About from '@/components/About'
 import Hero from '@/components/Hero'
 import SubHero from '@/components/SubHero'
@@ -14,9 +15,7 @@ export default function Home() {
       <PhotoGrid /> {/* Oportunidad para Mejora */}
       <Packages />
       <SubHero heading='Other Events' img='custom-img2' />
-      <About content={AboutText2} />
-
-
+      <About2 content={AboutText2} />
 
     </div>
   )
