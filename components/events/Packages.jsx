@@ -27,8 +27,8 @@ const Packages = () => {
           className='flex-1 flexCenter'
         >
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-            {PackagesInfo.map((feature) => (
-              <PackagesFeatures key={feature.title} {...feature} />
+            {PackagesInfo.map((feature, featureIndex) => (
+              <PackagesFeatures key={featureIndex} {...feature} />
             ))}
           </div>
         </motion.div>

@@ -32,8 +32,8 @@ const Story = () => {
                 className="flex-1 flex justify-center items-center"
             >
                 <div className="mt-[48px] flex flex-wrap items-center justify-between gap-[24px]">
-                {storyHost.map((story) => (
-                    <NewFeatures key={story.title} {...story} />
+                {storyHost.map((story, storyIndex) => (
+                    <NewFeatures key={storyIndex} {...story} />
                 ))}
                 </div>
             </motion.div>

@@ -6,22 +6,22 @@ const Content = () => {
   return (
     <div className='p-5 bg-gray-200 rounded-lg mb-10 max-w-4xl mx-auto'>
       {EventLogistics.map((part, partIndex) => (
-        <Accordion title={part.title} content={part.content} />
+        <Accordion title={part.title} key={partIndex} content={part.content} />
       ))}
       {FacilityGuidelines.map((part, partIndex) => (
-        <Accordion title={part.title} content={part.content} />
+        <Accordion title={part.title} key={partIndex} content={part.content} />
       ))}
       {CateringAndSeating.map((part, partIndex) => (
-        <Accordion title={part.title} content={part.content} />
+        <Accordion title={part.title} key={partIndex} content={part.content} />
       ))}
       {VenueAccessAndUsage.map((part, partIndex) => (
-        <Accordion title={part.title} content={part.content} />
+        <Accordion title={part.title} key={partIndex} content={part.content} />
       ))}
       {Responsabilities.map((part, partIndex) => (
-        <Accordion title={part.title} content={part.content} />
+        <Accordion title={part.title} key={partIndex} content={part.content} />
       ))}
       {CleanUpAndOthers.map((part, partIndex) => (
-        <Accordion title={part.title} content={part.content} />
+        <Accordion title={part.title} key={partIndex} content={part.content} />
       ))}
     </div>
   )

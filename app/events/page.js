@@ -16,7 +16,6 @@ export default function Home() {
       <Packages />
       <SubHero heading='Other Events' img='custom-img2' />
       <About2 content={AboutText2} />
-
     </div>
   )
 }

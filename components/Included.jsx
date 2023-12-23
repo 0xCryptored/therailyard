@@ -35,8 +35,8 @@ const Included = () => {
             </div>
             <div className="flex justify-center items-center">
                 <ul className='list-disc text-white font-bold text-lg'>
-                    {bulletPoints.map((bullet) => (
-                    <li>{bullet}</li>
+                    {bulletPoints.map((bullet, bulletIndex) => (
+                    <li key={bulletIndex}>{bullet}</li>
                     ))}
                 </ul>
             </div>
