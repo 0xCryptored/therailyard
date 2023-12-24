@@ -36,7 +36,7 @@ const Contact = () => {
             </div>
 
             <select className='border shadow-lg p-3 w-full my-2 rounded-md' name='survey' {...register('survey', { required: false })}>
-              <option value="default" disabled >How did you hear from us?</option>
+              <option value="default" selected disabled >How did you hear from us?</option>
               <option value="Instagram">Instagram</option>
               <option value="Facebook">Facebook</option>
               <option value="TikTok">TikTok</option>
