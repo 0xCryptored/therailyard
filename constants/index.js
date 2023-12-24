@@ -92,7 +92,7 @@
     title: 'Contact Us',
     links: [
       { label: 'Admin Officer', value: '715-214-5963' },
-      { label: 'Email Officer', value: 'info@therailyardwi.com' },
+      { label: 'Email Officer', value: 'Info@therailyard.com' },
     ],
   };
   
