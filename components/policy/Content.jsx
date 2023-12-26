@@ -4,7 +4,7 @@ import { EventLogistics, FacilityGuidelines, CateringAndSeating, VenueAccessAndU
 
 const Content = () => {
   return (
-    <div className='p-5 bg-gray-200 rounded-lg mb-10 max-w-4xl mx-auto'>
+    <div className='bg-[#D5BA91] rounded-lg mb-10 max-w-4xl mx-auto'>
       {EventLogistics.map((part, partIndex) => (
         <Accordion title={part.title} key={partIndex} content={part.content} />
       ))}

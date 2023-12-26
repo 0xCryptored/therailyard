@@ -15,7 +15,7 @@ const SGrid = ({ title, content, context }) => {
             </svg>
         </button>
         {/* Overlay part */ }
-        <div className={`grid overflow-hidden transition-all duration-300 ease-in-out my-2 p-4 text-slate-600 text-sm rounded-lg bg-slate-50 ${accordionOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
+        <div className={`grid overflow-hidden transition-all duration-300 ease-in-out my-2 p-4 text-slate-600 text-sm rounded-lg bg-slate-100 ${accordionOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
 
             <div className='overflow-hidden flexCenter'>
                 <ul>
