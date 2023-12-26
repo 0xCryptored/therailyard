@@ -1,3 +1,41 @@
+export const RatesInfo = [
+  {
+    title: 'Per Hour',
+    context:'(3 Hour Min)',
+    r1:'Monday to Thursday → $250',
+    r2:'Friday → $275',
+    r3:'Saturday → $300',
+    r4:'Saturday → $250',
+  },
+  {
+    title: 'Half Day',
+    context: '(4 P.M. - 10 P.M.)',
+    r1:'Monday to Thursday → $1,000',
+    r2:'Friday → $1,200',
+    r3:'Saturday → $1,500',
+    r4:'Saturday → $1,000',
+  },
+  {
+    title: 'Full Day',
+    context: '(10 A.M. - 10 P.M.)',
+    r1:'Monday to Thursday → $1,800',
+    r2:'Friday → $2,000',
+    r3:'Saturday → $2,500',
+    r4:'Saturday → $1,800',
+  },
+  {
+    title: 'Weekend',
+    context: '(FRI 10 A.M. - SAT 10 P.M.)',
+    r1:'Friday → $3,500',
+  },
+  {
+    title: 'Full Weekend',
+    context: '(FRI 10 A.M. - SUN 12 P.M.)',
+    r1:'Friday → $3,900',
+  },
+]
+
+
 export const PackagesInfo = [
     {
       title: 'Railyard Rustique',

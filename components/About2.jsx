@@ -20,7 +20,7 @@ const About2 = ({ content }) => {
             >
                 {content}
             </motion.p>
-            <div className='flexBetween flex-row w-[70%]'>
+            <motion.div className='flexBetween flex-row w-[70%]' variants={fadeIn("up", "tween", 0.3, 1)}>
                 <div className='bg-[#D5BA91] w-[200px] p-3 rounded-xl'>
                     <ul className='text-white text-center font-bold custom-shadow'>
                         <li>Community Events</li>
@@ -43,7 +43,7 @@ const About2 = ({ content }) => {
                         <li>Bridalshowers</li>
                     </ul>
                 </div>
-            </div>
+            </motion.div>
         </motion.div>
     </section>
   )

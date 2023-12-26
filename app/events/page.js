@@ -5,6 +5,8 @@ import SubHero from '@/components/SubHero'
 import Packages from '@/components/events/Packages'
 import PhotoGrid from '@/components/events/PhotoGrid'
 import { AboutText, AboutText2 } from '@/constants/events/'
+import Calendar from '@/components/Calendar'
+import Rates from '@/components/events/Rates'
 
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
       <Packages />
       <SubHero heading='Other Events' img='custom-img2' />
       <About2 content={AboutText2} />
+      <Rates />
+      <Calendar />
     </div>
   )
 }

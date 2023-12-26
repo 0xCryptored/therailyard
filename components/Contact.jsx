@@ -13,10 +13,10 @@ const Contact = () => {
   }
   
   return (
-    <div className='max-w-[1240px] m-auto p-4 h-screen mb-10'>
+    <div className='max-w-[1240px] mx-auto pb-16 px-4'>
         <h1 className='text-2xl font-bold text-center p-4 text-white'>Curious or Ready to Book? Contact Us!</h1>
 
-        <form onSubmit={handleSubmit(onSubmit)} className='max-w-[600px] m-auto'>
+        <form onSubmit={handleSubmit(onSubmit)} className='max-w-[600px] mx-auto'>
             <div className='grid grid-cols-2 gap-2'>
                 <input className='border shadow-lg p-3 rounded-md' name='name' type="text" placeholder='First Name' {...register('name', { required: true })} />
 
