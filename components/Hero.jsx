@@ -6,11 +6,8 @@ const Hero = ({heading, message}) => {
         {/* Overlay */}
         <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]'/>
         <div className='flexCenter flex-col text-white z-[2]'>
-            <h2 className='text-4xl font-bold'>{heading}</h2>
-            <p className='py-5 text-xl'>{message}</p>
-            <button className='hover:font-bold px-7 py-2 border rounded-md'>
-              Gallery
-            </button>
+            <h2 className='text-4xl font-bold text-center'>{heading}</h2>
+            <p className='py-5 text-xl text-center'>{message}</p>
         </div>
     </div>
   )

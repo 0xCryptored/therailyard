@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { staggerContainer, planetVariants } from "../utils/motion";
+import { staggerContainer, planetVariants, fadeIn } from "../utils/motion";
 import { NewFeatures, TitleText, TypingText } from "../components";
 import { storyHost } from "../constants/index";
 import Image from "next/image";
@@ -28,7 +28,7 @@ const Story = () => {
                 />
             </div>
             <motion.div
-                variants={planetVariants("right")}
+                variants={fadeIn("left", "tween", 0.2, 1)}
                 className="flex-1 flex justify-center items-center"
             >
                 <div className="mt-[48px] flex flex-wrap items-center justify-between gap-[24px]">
