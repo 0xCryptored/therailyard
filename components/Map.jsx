@@ -25,9 +25,9 @@ const Map = () => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className="relative flex w-full h-full"
         >
-          <div className="absolute left-0 top-0 md:w-[500px] h-[500px] bg-center bg-cover rail-2 z-0" style={{ transform: 'rotate(-125deg)' }} />
+          <div className="absolute left-0 top-0 md:w-[500px] h-[500px] bg-center bg-cover rail-2 z-0" style={{ transform: 'rotate(-145deg)' }} />
           <div className="absolute md:right-0 md:bottom-0 w-[510px] h-[500px] bg-center bg-cover rail-2 z-0" style={{ transform: 'rotate(-155deg)' }} />
-          <div className="relative mx-auto w-[410px] h-[730px]">
+          <div className="relative mx-auto w-[445px] h-[730px]">
             <Image src="/map.png" alt="map" className="md:w-full md:h-full" width={410} height={730}/>
           </div>
           <div className="absolute top-[22%] left-[55%] cursor-pointer" >
@@ -35,7 +35,7 @@ const Map = () => {
             <p className="absolute right-0 text-white font-bold custom-shadow" >PARKING</p>
           </div>
 
-          <div className="absolute top-[22%] left-[19%] cursor-pointer" >
+          <div className="absolute top-[22%] left-[22%] cursor-pointer" >
             <div className="w-[15px] h-[15px] rounded-full md:w-[255px] md:h-[4px] bg-blue-500 border border-white" />
             <p className="absolute left-0 text-white font-bold custom-shadow" >MAIN ENTRANCE</p>
           </div>
@@ -45,17 +45,17 @@ const Map = () => {
             <p className="absolute left-0 text-white font-bold custom-shadow" >SODA FOUNDATION</p>
           </div>
 
-          <div className="absolute top-[50%] left-[20%] cursor-pointer">
+          <div className="absolute top-[50%] left-[23%] cursor-pointer">
             <div className="w-[15px] h-[15px] rounded-full md:w-[255px] md:h-[4px] bg-blue-500 border border-white" />
             <p className="absolute left-0 text-white font-bold custom-shadow" >THE BARN</p>
           </div>
 
-          <div className="absolute bottom-[31%] left-[20%] cursor-pointer">
+          <div className="absolute bottom-[31%] left-[23%] cursor-pointer">
             <div className="w-[15px] h-[15px] rounded-full md:w-[255px] md:h-[4px] bg-blue-500 border border-white"/>
             <p className="absolute left-0 text-white font-bold custom-shadow">GARDEN SHED</p>
           </div>
 
-          <div className="absolute bottom-[10%] left-[20%] cursor-pointer">
+          <div className="absolute bottom-[10%] left-[24%] cursor-pointer">
             <div className="w-[15px] h-[15px] rounded-full md:w-[255px] md:h-[4px] bg-blue-500 border border-white"/>
             <p className="absolute left-0 text-white font-bold custom-shadow">RAIL HOUSE</p>
           </div>

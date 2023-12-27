@@ -66,7 +66,11 @@
   ];
 
   // FEATURES SECTION
-  export const bulletPoints = ["(20) 9' Wood plank hairpin leg tables - seats 10","250 Wooden X back chairs","(8) 8' Fancy X farmhouse tables","Table and chairs set-up/takedown","Vintage grain cart table","Vintage Chevy pick up truck","4 Gas Fire pits 1 Wood Fire pit", "5 High end outdoor lounge areas","Walk-up grain bin bar", "Boho chic bridal cottage", "Industrial grain bin grooms loft"]
+  export const bulletPoints = [
+    'Access to the Full Grounds 🛤️',
+    'Sitting and Tables for 100 guests 👨‍👩‍👧‍👦',
+    'Parking lot 🚗',
+  ];
 
 
   // FOOTER SECTION

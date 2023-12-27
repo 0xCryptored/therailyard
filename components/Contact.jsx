@@ -22,10 +22,6 @@ const Contact = () => {
 
                 <input className='border shadow-lg p-3 rounded-md' name='lastname' type="text" placeholder='Last Name' {...register('lastname', { required: false })} />
 
-                <input className='border shadow-lg p-3 rounded-md' name='pName' type="text" placeholder='First Name' {...register('pName', { required: false })}/>
-
-                <input className='border shadow-lg p-3 rounded-md' name='pLastname' type="text" placeholder='Last Name' {...register('pLastname', { required: false })}/>
-
                 <input className='border shadow-lg p-3 rounded-md' name='email' type="email" placeholder='Email' {...register('email', { required: true })} />
 
                 <input className='border shadow-lg p-3 rounded-md' name='phone' type="tel" placeholder='Phone Number' {...register('phone', { required: false })} />
@@ -36,7 +32,7 @@ const Contact = () => {
             </div>
 
             <select className='border shadow-lg p-3 w-full my-2 rounded-md' name='survey' {...register('survey', { required: false })}>
-              <option value="default" selected disabled >How did you hear from us?</option>
+              <option value="default" disabled >How did you hear from us?</option>
               <option value="Instagram">Instagram</option>
               <option value="Facebook">Facebook</option>
               <option value="TikTok">TikTok</option>

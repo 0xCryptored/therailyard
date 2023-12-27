@@ -1,47 +1,47 @@
 'use client';
 
-import React from 'react'
 import Image from 'next/image'
+import { motion } from "framer-motion";
 import styles from '@/styles/index'
 import { TitleText } from './CustomTexts'
+import { fadeIn, planetVariants, staggerContainer } from '@/utils/motion';
 import { bulletPoints } from '@/constants';
+import StartSteps from './StartSteps';
 
 const Included = () => {
   return (
-    <section className={`relative ${styles.paddings}`}>
-        <div className='mb-12'>
-            <TitleText title={<>What is Included</>} />
-        </div>
-        <div className={`h-full w-full mx-auto flex lg:flex-row lg:justify-between my-4 flex-col gap-4 z-2`}>
-            <div className="flex h-full w-fit justify-center flex-row gap-4">
-                <div className='absolute top-[18%] left-[42%] h-200'>
-                    <Image
-                        src="/truck2.png"
-                        alt="Vintage truck with flowers"
-                        width={225}
-                        height={400}
-                        className="object-cover rounded-lg"
-                    />
-                </div>
-                <div className='absolute bottom-10 left-[18%] h-200'>
-                    <Image
-                        src="/truck3.png"
-                        alt="Vintage truck with flowers"
-                        width={225}
-                        height={400}
-                        className="object-cover rounded-lg"
-                    />
-                </div>
+    <section className={`relative ${styles.paddings} z-2`}>
+        <motion.div
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: "false", amount: 0.25 }}
+            className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+        >
+        <motion.div
+            variants={planetVariants("left")}
+            className={`flex-1 ${styles.flexCenter}`}
+        >
+            <Image
+            src="/WhatsIncluded.svg"
+            alt="Old Truck with flowers"
+            width={550}
+            height={550}
+            />
+        </motion.div>
+        <motion.div
+            variants={fadeIn("left", "tween", 0.2, 1)}
+            className="flex-[0.75] flex justify-center flex-col"
+        >
+            <TitleText title={<>Whats Included</>} />
+            <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
+            {bulletPoints.map((feature, index) => (
+                <StartSteps key={feature} number={index + 1} text={feature} />
+            ))}
             </div>
-            <div className="flex justify-center items-center">
-                <ul className='list-disc text-white font-bold text-lg'>
-                    {bulletPoints.map((bullet, bulletIndex) => (
-                    <li key={bulletIndex}>{bullet}</li>
-                    ))}
-                </ul>
-            </div>
-        </div>
-    </section>
+        </motion.div>
+        </motion.div>
+  </section>
   )
 }
 
