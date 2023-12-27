@@ -25,7 +25,8 @@ export async function POST(request) {
         if (!err) {
           resolve('Email sent');
         } else {
-          reject(err.message);
+          console.error('Error sending email:', err);
+          reject('Failed to send email');
         }
       });
     });
@@ -33,8 +34,8 @@ export async function POST(request) {
 
   try {
     await sendMailPromise();
-    return NextResponse.json({ message: 'Email sent' });
+    return NextResponse.json({ success: true, message: 'Email sent' });
   } catch (err) {
-    return NextResponse.json({ error: err }, { status: 500 });
+    return NextResponse.json({ success: false, error: err }, { status: 500 });
   }
 }

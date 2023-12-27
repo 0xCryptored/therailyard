@@ -4,6 +4,9 @@ export function sendEmail(data) {
 
   fetch(apiEndpoint, {
     method: 'POST',
+    headers: {
+      'Content-Type': 'application/json', // Set content type to JSON
+    },
     body: JSON.stringify(data),
   })
     .then((res) => res.json())
