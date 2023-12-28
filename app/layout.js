@@ -1,9 +1,7 @@
-import { Raleway } from 'next/font/google'
 import '../styles/globals.css'
+import { titleFont, raleway } from '@/styles/font'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-
-const raleway = Raleway({ subsets: ['latin'], weight: ['400'] })
 
 export const metadata = {
   title: 'The RailYard',
@@ -13,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={raleway.className}>
+      <body className={`${raleway.className} ${titleFont.variable}`}>
         <Navbar />
         <main>
           {children}

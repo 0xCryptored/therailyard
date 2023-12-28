@@ -7,9 +7,11 @@ import Link from "next/link";
 
 const Rates = () => {
   return (
-    <section id="rates" className={`flexCenter ${styles.paddings} z-2`}>
-      <TitleText title={<>Rates</>} />
-      <div className="grid grid-cols-3 gap-4 pl-20">
+    <section id="rates" className={`flex md:justify-center flex-col md:flex-row md:items-center ${styles.paddings} z-2`}>
+      <div className="text-center my-4">
+        <TitleText title={<>Rates</>} />
+      </div>
+      <div className="grid md:grid-cols-3 grid-cols-1 md:gap-4 md:pl-20 pl-12">
           <SGrid
             title={RatesInfo[0].title}
             context={RatesInfo[0].context}

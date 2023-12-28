@@ -76,19 +76,9 @@
   // FOOTER SECTION
   export const FOOTER_LINKS = [
     {
-      title: 'Learn More',
-      links: [
-        'About The Railyard',
-        'Press Releases',
-        'Environment',
-        'Jobs',
-        'Privacy Policy',
-        'Contact Us',
-      ],
-    },
-    {
       title: 'Our Community',
       links: ['Great Stories', 'How to Plan a Wedding', 'Flower Distributors'],
+      ref: ['https://www.huffpost.com/entry/the-most-touching-wedding-stories-of-the-year_b_8824302','https://www.brides.com/gallery/how-to-plan-your-own-wedding','https://www.theknot.com/marketplace/florists-stone-lake-wi?sort=featured']
     },
   ];
   
@@ -104,9 +94,6 @@
     title: 'Social',
     links: [
       '/facebook.svg',
-      '/instagram.svg',
-      '/twitter.svg',
-      '/youtube.svg',
     ],
   };
   
