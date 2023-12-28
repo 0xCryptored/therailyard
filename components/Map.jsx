@@ -35,7 +35,7 @@ const Map = () => {
             <p className="absolute right-0 text-white font-bold custom-shadow" >PARKING</p>
           </div>
 
-          <div className="absolute top-[22%] left-[22%] cursor-pointer" >
+          <div className="absolute top-[22%] md:left-[22%] left-[10%] cursor-pointer" >
             <div className="w-[15px] h-[15px] rounded-full md:w-[255px] md:h-[4px] bg-blue-500 border border-white" />
             <p className="absolute left-0 text-white font-bold custom-shadow" >MAIN ENTRANCE</p>
           </div>
@@ -50,17 +50,17 @@ const Map = () => {
             <p className="absolute left-0 text-white font-bold custom-shadow" >THE BARN</p>
           </div>
 
-          <div className="absolute bottom-[31%] left-[23%] cursor-pointer">
+          <div className="absolute md:bottom-[31%] bottom-[35%] left-[23%] cursor-pointer">
             <div className="w-[15px] h-[15px] rounded-full md:w-[255px] md:h-[4px] bg-blue-500 border border-white"/>
             <p className="absolute left-0 text-white font-bold custom-shadow">GARDEN SHED</p>
           </div>
 
-          <div className="absolute bottom-[10%] left-[24%] cursor-pointer">
+          <div className="absolute md:bottom-[10%] bottom-[15%] left-[24%] cursor-pointer">
             <div className="w-[15px] h-[15px] rounded-full md:w-[255px] md:h-[4px] bg-blue-500 border border-white"/>
             <p className="absolute left-0 text-white font-bold custom-shadow">RAIL HOUSE</p>
           </div>
 
-          <div className="absolute bottom-[32%] left-[55%] cursor-pointer">
+          <div className="absolute md:bottom-[32%] bottom-[36%] md:left-[55%] left-[67%] cursor-pointer">
             <div className="w-[15px] h-[15px] rounded-full md:w-[255px] md:h-[4px] bg-blue-500 border border-white"/>
             <p className="absolute right-0 text-white font-bold custom-shadow">SERVICE STATION</p>
           </div>

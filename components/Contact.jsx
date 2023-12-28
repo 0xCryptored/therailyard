@@ -26,7 +26,7 @@ const Contact = () => {
 
                 <input className='border shadow-lg p-3 rounded-md' name='phone' type="tel" placeholder='Phone Number' {...register('phone', { required: false })} />
 
-                <input className='border shadow-lg p-3 rounded-md' name='eventDate' type="date" {...register('eventDate', { required: true })} />
+                <input className='border shadow-lg p-3 w-[195px] md:w-auto rounded-md' name='eventDate' type="date" {...register('eventDate', { required: true })} />
 
                 <input className='border shadow-lg p-3 rounded-md' name='eventSize' type="number" placeholder='Event Size' {...register('eventSize', { required: true })} />
             </div>

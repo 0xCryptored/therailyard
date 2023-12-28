@@ -20,9 +20,12 @@ const About2 = ({ content }) => {
             >
                 {content}
             </motion.p>
-            <motion.div className='flexBetween flex-row w-[70%]' variants={fadeIn("up", "tween", 0.3, 1)}>
-                <div className='bg-[#D5BA91] w-[200px] p-3 rounded-xl'>
-                    <ul className='text-white text-center font-bold custom-shadow'>
+            <motion.div 
+            className='flexBetween flex-row w-full' 
+            variants={fadeIn("up", "tween", 0.3, 1)}
+            >
+                <div className='bg-[#D5BA91] w-[200px] h-[150px] p-3 rounded-xl'>
+                    <ul className='text-white text-center font-bold custom-shadow pt-2'>
                         <li>Community Events</li>
                         <li>Photoshoots</li>
                         <li>Fundraisers</li>
@@ -35,8 +38,8 @@ const About2 = ({ content }) => {
                     alt="railyard logo"
                     className="w-[80px] h-[80px] object-contain"
                 />
-                <div className='bg-[#D5BA91] w-[200px] p-3 rounded-xl'>
-                    <ul className='text-white text-center font-bold custom-shadow'>
+                <div className='bg-[#D5BA91] w-[200px] h-[150px] p-3 rounded-xl'>
+                    <ul className='text-white text-center font-bold custom-shadow pt-2'>
                         <li>Filming Events</li>
                         <li>Anniversaries</li>
                         <li>Graduations</li>

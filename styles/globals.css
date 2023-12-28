@@ -32,20 +32,27 @@ html {
 
 
 .custom-img {
-  background-image: url('/truck.png');
+  background-image: url('../public/truck.png');
+}
+
+.custom-imgR {
+  background-image: url('../public/truck3.png');
+  height: 739px;
+  width: auto;
 }
 
 .custom-img2 {
-  background-image: url('/hero2.jpg');
+  background-image: url('../public/hero2.jpg');
+}
+
+.custom-img2R {
+  background-image: url('../public/hero2.jpg');
 }
 
 .custom-img3 {
-  background-image: url('/hero3.jpg');
+  background-image: url('../public/hero3.jpg');
 }
 
-.custom-img4 {
-  background-image: url('/hero4.jpg');
-}
 
 .rail-1 {
   background-image: url('/rail-1.svg');
