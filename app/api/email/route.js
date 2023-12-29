@@ -14,7 +14,7 @@ export async function POST(request) {
 
   const mailOptions = {
     from: process.env.MY_EMAIL,
-    to: process.env.MY_RECEIVER_TEST,
+    to: process.env.MY_RECEIVER,
     subject: `Message from ${name} on The Railyard Website`,
     text: `Hello! You've received a new message from The Railyard Contact form. This one is from → ${name} ${lastname}; email: ${email}`,
     html: `
