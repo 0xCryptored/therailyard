@@ -38,7 +38,6 @@ const Slider = ({ slides }) => {
               >   
                 <FaArrowCircleLeft className='absolute top-[50%] left-[10%] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={prevSlide}/>
                 <FaArrowCircleRight className='absolute top-[50%] right-[10%] text-black/70 cursor-pointer select-none z-[2]' size={50} onClick={nextSlide} />
-
                   {index === current && (
                       <Image
                       src={slide.img}
@@ -47,7 +46,6 @@ const Slider = ({ slides }) => {
                       height="300"
                       />
                   )}
-
               </div>
             );
           })}
