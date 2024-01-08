@@ -57,7 +57,7 @@ const Rates = () => {
                 <li key={rate}>{rate}</li>
               ))}
           />
-          <SGrid title='Custom' context='Anything on mind?' content={<Link href='/getInTouch'> Contact Us </Link>}  />
+          <SGrid title='Custom Event' context='' content={<Link href='/getInTouch'> Contact Us </Link>}  />
       </div>
     </section>
   );
