@@ -77,16 +77,16 @@
   export const FOOTER_LINKS = [
     {
       title: 'Our Community',
-      links: ['Great Stories', 'How to Plan a Wedding', 'Flower Distributors'],
-      ref: ['https://www.huffpost.com/entry/the-most-touching-wedding-stories-of-the-year_b_8824302','https://www.brides.com/gallery/how-to-plan-your-own-wedding','https://www.theknot.com/marketplace/florists-stone-lake-wi?sort=featured']
+      links: ['Great Stories', 'How to Plan a Wedding'],
+      ref: ['https://www.huffpost.com/entry/the-most-touching-wedding-stories-of-the-year_b_8824302','https://www.brides.com/gallery/how-to-plan-your-own-wedding']
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '715-214-5963' },
-      { label: 'Email Officer', value: 'Info@therailyard.com' },
+      { label: '○', value: '715-214-5963' },
+      { label: '○', value: 'Info@therailyard.com' },
     ],
   };
   
