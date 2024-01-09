@@ -5,15 +5,15 @@
   export const SliderData = [
     {
       title: 'Girl with cows on a mountain',
-      img: '/slide-1.jpg',
+      img: '/slide-1.JPG',
     },
     {
         title: 'Interview in the barn',
-        img: '/slide-2.jpg',
+        img: '/slide-2.JPG',
     },
     {
         title: 'Bride holding the bridal bouquet with bridesmaids in front of the barn ',
-        img: '/slide-3.jpg',
+        img: '/slide-3.JPG',
     },  
     {
         title: 'Lunch time outside with family',
@@ -21,7 +21,7 @@
     },
     {
         title: 'Family picture of 10 members',
-        img: '/slide-5.jpg',
+        img: '/slide-5.JPG',
     },
   ];
 
