@@ -1,6 +1,10 @@
   // Contact Data
   export const AboutContact = "We're genuinely excited to hear from you! Kindly complete the form below, and we'll be reaching out to you promptly. Your inquiries are important to us, and we're here to assist you with any details or arrangements for your upcoming event. Looking forward to connecting with you soon!"
 
+  // Calendar Data
+  export const AboutCalendar = "Please make sure to fill out all the required information"
+
+
   // SLIDER DATA 
   export const SliderData = [
     {
@@ -86,7 +90,7 @@
     title: 'Contact Us',
     links: [
       { label: '○', value: '715-214-5963' },
-      { label: '○', value: 'Info@therailyard.com' },
+      { label: '○', value: 'info@therailyard.com' },
     ],
   };
   
