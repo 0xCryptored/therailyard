@@ -29,7 +29,7 @@ const Story = () => {
             </div>
             <motion.div
                 variants={fadeIn("left", "tween", 0.2, 1)}
-                className="flex-1 flex justify-center items-center"
+                className="flex-1 hidden sm:flex justify-center items-center"
             >
                 <div className="mt-[48px] flex flex-wrap items-center justify-between gap-[24px]">
                 {storyHost.map((story, storyIndex) => (
@@ -37,6 +37,13 @@ const Story = () => {
                 ))}
                 </div>
             </motion.div>
+            <div className="flex-1 sm:hidden flex justify-center items-center">
+                <div className="mt-[48px] flex flex-wrap items-center justify-between gap-[24px]">
+                {storyHost.map((story, storyIndex) => (
+                    <NewFeatures key={storyIndex} {...story} />
+                ))}
+                </div>
+            </div>
         </motion.div>
     </section>
   )

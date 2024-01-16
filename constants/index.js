@@ -20,10 +20,6 @@
         img: '/slide-3.JPG',
     },  
     {
-        title: 'Lunch time outside with family',
-        img: '/slide-4.jpg',
-    },
-    {
         title: 'Family picture of 10 members',
         img: '/slide-5.JPG',
     },
@@ -90,7 +86,7 @@
     title: 'Contact Us',
     links: [
       { label: '○', value: '715-214-5963' },
-      { label: '○', value: 'info@therailyard.com' },
+      { label: '○', value: 'info@therailyardwi.com' },
     ],
   };
   
