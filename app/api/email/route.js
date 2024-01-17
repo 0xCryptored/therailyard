@@ -46,6 +46,7 @@ export async function POST(request) {
     });
   };
 
+
   try {
     await sendMailPromise();
     return NextResponse.json({ success: true, message: 'Email sent' });
