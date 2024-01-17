@@ -56,6 +56,9 @@ const Navbar = () => {
                     <Link href='/events' className='hover:font-bold'>Wedding & Events</Link>
                 </li>
                 <li className='p-4'>
+                    <Link href='/calendar' className='hover:font-bold'>Calendar</Link>
+                </li>
+                <li className='p-4'>
                     <Link href='/getInTouch' className='hover:font-bold'>Contact</Link>
                 </li>
                 <li className='p-4'>
@@ -80,6 +83,9 @@ const Navbar = () => {
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/events' onClick={handleNav}>Wedding & Events</Link>
+                    </li>
+                    <li className='p-4 text-4xl hover:text-gray-500'>
+                        <Link href='/calendar' onClick={handleNav}>Calendar</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/getInTouch' onClick={handleNav}>Contact</Link>
